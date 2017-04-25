@@ -1,0 +1,77 @@
+.detail{
+	overflow: hidden;
+}
+.detail h5{
+	margin: 50px 0 40px 0;
+	font-size: 16px;
+	color:rgba(0,0,0,.5);
+}
+.detail h5 span{
+	color:#faa643;
+}
+.detail h2{
+	color:#000;
+	text-align: center;
+}
+.detail h4{
+	text-align: center;
+	margin: 5px 0 10px 0;
+}
+.detail h4 span{
+	color:rgba(0,0,0,.5);
+	font-size: 16px;
+}
+.detail h4 span:last-child{
+	margin-left: 20px;
+}
+.detail p{
+	text-indent: 2em;
+	font-size: 16px;
+	color:#000;
+	margin-top: 70px;
+}
+.detail .icon{
+	float: right;
+	margin: 30px 40px 60px 0;
+}
+.detail .icon span{
+	color:#000;
+	font-size: 16px;
+}
+.detail .icon img{
+	cursor: pointer;
+}
+.detail .link a{
+	color: #000;
+	font-size: 16px;
+	margin-left: 70px;
+}
+.detail .prev_page{
+	float: left;
+}
+.detail .next_page{
+	float: right;
+	margin-right: 70px;
+}
+.detail ul{
+	width:400px;
+	margin:90px auto;
+	height: 12px;
+}
+.detail ul li{
+	float: left;
+	margin-right: 30px;
+}
+.detail ul li:last-child{
+	margin-right: 0;
+}
+.detail ul li a{
+	color:#808080;
+	font-size: 12px;
+}
+.detail ul li.active a,.detail ul li:hover a{
+	color:#faa643;
+}
+.detail ul li:nth-child(7):hover a{
+	color:#808080;
+}
